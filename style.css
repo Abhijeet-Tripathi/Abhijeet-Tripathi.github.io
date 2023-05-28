@@ -1,0 +1,65 @@
+/* body color and font are set below */
+body{
+    font-family: sans-serif;
+    background-color: #B79CED;
+}
+
+/* below is styling and positioning of stopwatch container */
+#stopwatch {
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    height: 44vh;
+    width: 54vw;
+    border: 4px solid black;
+    border-radius: 64px;
+    transform: translate(7px, -100px);
+    background-color: #957FEF;
+ }
+
+ /* below is the stylingscreen in which time will be displayed */
+ #display{
+    top: 11%;
+    position: absolute;
+    height: 34%;
+    width: 74%;
+    background-color: #f4e1c8;
+    left: 13%;
+    border-radius: 63px;
+    border: 2px solid goldenrod;
+ }
+
+/* below is styling for how and where, will the minute and second be shown */
+ .time{
+    position: relative;
+    top: 27%;
+    font-size: 2.5rem;
+    left: 30%;
+    margin: 10px;
+ }
+
+/* below is a styling( placing the buttons, styling, etc) for start, stop, and reset button */
+ .buttons{
+    position: relative;
+    top: 56%;
+    left: 23%;
+    background-color: #B79CED;
+    transform: translate(-60px,-10px);
+    margin: 41px 41px 0px 41px;
+    border: 2px solid black;
+    padding: 12px 17px 12px 17px;
+    font-weight: 900;
+    border-radius: 12px;
+    font-size: 1rem;   
+ }
+
+/* below style gives a hover effect of mouse movement */
+ .buttons:hover{
+    background-color: #b8aaef;
+    cursor: pointer;
+ }
+
+ /* below styling makes the button look like it is clicked */
+ .buttons:active{
+   background-color:#8267ed ;
+ }
